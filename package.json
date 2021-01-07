@@ -20,7 +20,10 @@
     "url": "https://github.com/sachinkmohan/vuepress-easymalayalam/issues"
   },
   "homepage": "https://github.com/sachinkmohan/vuepress-easymalayalam#readme",
-  "dependencies":  { 
-	"vuepress": "1.8.0"
+  "dependencies": {
+    "vuepress": "1.8.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.3"
   }
 }
