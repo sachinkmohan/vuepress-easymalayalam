@@ -24,6 +24,7 @@
     "vuepress": "1.8.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-blog": "^1.9.3"
+    "@vuepress/plugin-blog": "^1.9.3",
+    "@vuepress/plugin-google-analytics": "^1.8.0"
   }
 }
