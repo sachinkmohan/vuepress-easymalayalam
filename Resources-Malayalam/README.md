@@ -14,7 +14,8 @@ title: Resources-Malayalam
 + **LightOz KidsMag** - @lightozkidsmag  
 + **Fluent in Malayalam** - @fluentinmalayalam  
 + **Everyday Malayalam** - @everyday_malayalam  
-  
++ **Bhasha Kids** - @bhashakids -> _Tips on how to learn Malayalam and other Indian languages for kids. She also has a wonderful [website](https://bhashakids.com/)You can also buy flashcards from the website_
+
 _To be updated .. please suggest me more..write me on Insta.._ 
 
 

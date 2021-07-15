@@ -17,13 +17,15 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Resources-Malayalam', link: '/Resources-Malayalam/' },
+            { text: 'FAQs', link: '/FAQs/' },
             { text: 'Other-Languages', link: '/Other-Languages/' },
         ],
 
 
         sidebar: [
             '/',
-            '/blog/'
+            '/blog/',
+	    '/FAQs/'
         ]
     }
 }
