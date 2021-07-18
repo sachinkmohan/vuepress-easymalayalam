@@ -16,6 +16,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/' },
+            { text: 'Mega Quiz', link: '/Mega-Quiz/' },
             { text: 'Resources-Malayalam', link: '/Resources-Malayalam/' },
             { text: 'FAQs', link: '/FAQs/' },
             { text: 'Other-Languages', link: '/Other-Languages/' },
@@ -25,6 +26,7 @@ module.exports = {
         sidebar: [
             '/',
             '/blog/',
+            '/Mega-Quiz/',
 	    '/FAQs/'
         ]
     }
