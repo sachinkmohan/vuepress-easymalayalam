@@ -10,7 +10,13 @@ module.exports = {
             {
                 'ga': 'UA-186989669-1'
             }
-        ]
+        ],
+        [
+      	     "vuepress-plugin-google-adsense",
+      	      {
+        	adClient: "ca-pub-8159459534545926", // replace it with your adClient
+      	      }
+    	]
     ],
     themeConfig: {
         nav: [
