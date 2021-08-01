@@ -26,6 +26,7 @@ module.exports = {
             { text: 'Resources-Malayalam', link: '/Resources-Malayalam/' },
             { text: 'FAQs', link: '/FAQs/' },
             { text: 'Other-Languages', link: '/Other-Languages/' },
+            { text: 'Small Quizzes', link: '/smallquizzes/' }
         ],
 
 
