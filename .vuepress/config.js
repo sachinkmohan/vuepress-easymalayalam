@@ -29,6 +29,5 @@ module.exports = {
             { text: "Logs", link: "/logs/" },
         ],
 
-        sidebar: ["/", "/blog/", "/Mega-Quiz/", "/FAQs/"],
     },
 };
