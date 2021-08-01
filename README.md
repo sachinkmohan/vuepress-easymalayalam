@@ -1,6 +1,7 @@
 ---
 article_index: true
-title: Home
+title: Learn Malayalam Online | Speak Malayalam Online 
+description: Learn Malayalam online with easymalayalam. Learn Malayalam easily. Start to speak Malayalam with me on italki. Speaking Malayalam will help you improve your speaking skills at a faster rate. This page contains Malayalam podcasts, instagram pages, Quizzes, etc. Learning Malayalam from a native speaker is the best thing to do because he/she can tell you all about the culture, Kerala, slangs, swearing words, almost everything. 
 footer: Anamutta
 ---
 
