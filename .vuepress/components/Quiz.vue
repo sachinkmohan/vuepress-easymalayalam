@@ -18,6 +18,8 @@
                     :value="key" 
                     @change="answered($event)"
                     :disabled="selectedAnswer != ''"
+                    v-model="selectedAnswer"
+                    @click="uncheck"
                 />
                {{ answer }} 
             </label>
@@ -65,6 +67,10 @@ export default {
         },
         nextQuestion() {
             this.index++
+            this.selectedAnswer = '';
+            console.log(this.selectedAnswer)
+        },
+        uncheck: function() {
             this.selectedAnswer = ''
         }
     }
