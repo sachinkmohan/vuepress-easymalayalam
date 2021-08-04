@@ -21,12 +21,18 @@ module.exports = {
         nav: [
             { text: "Home", link: "/" },
             { text: "Blog", link: "/blog/" },
-            { text: "Mega Quiz", link: "/Mega-Quiz/" },
+            {
+                text: 'Quizzes',
+                ariaLabel: 'Quiz Menu',
+                items: [
+                    { text: 'Mega Quiz', link: '/Mega-Quiz/'},
+                    { text: 'Other Quizzes', link: '/quiz/smallquizzes/'}
+                ]
+            },
             { text: "Resources-Malayalam", link: "/Resources-Malayalam/" },
             { text: "Explained", link: "/explained/" },
             { text: "FAQs", link: "/FAQs/" },
-            { text: "Test", link: "/smallquizzes/" },
-            { text: "Logs", link: "/logs/" },
+            { text: "Logs", link: "/logs/" }
         ],
 
     },

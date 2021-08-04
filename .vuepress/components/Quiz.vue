@@ -1,10 +1,8 @@
 <template>
     <div>
-        <h3> Page under construction </h3>
-        <h4> Simple Quiz</h4>
+        <h4> Simple Quiz - 3 Questions </h4>
         <div>
             <div v-if="index < count">
-            <p>Here comes the question</p>
             
             <p>{{ questions[index]['question']}}</p>
             <label 
@@ -23,12 +21,13 @@
                     @click="uncheck"
                     :class="{ activeColor : key== questions[0]['correctAnswer']}"
                 />
-               {{ answer}}
+                    {{ answer}} <br>
 
             </label>
             <div v-if="isHidden">
                 <!-- <button v-on:click="displayAnswer">Show correct answer</button> -->
-                <h5> Correct Answer is {{ questions[answerIndex-1]['correctAnswer']}}  </h5>
+                <h5 v-if="isHiddenCorrectAnswerValidation"> Yaay!! Correct Answer &#128512 !!   </h5>
+                <h5 v-if="isHiddenWrongAnswerValidation"> Oh no 😢. Correct Answer is {{ questions[answerIndex-1]['correctAnswer']}}  </h5>
             </div>
             <div>
                 <button  
@@ -70,6 +69,8 @@ export default {
             correctAnswerCount: 0,
             wrongAnswerCount: 0,
             isHidden: false,
+            isHiddenCorrectAnswerValidation: false,
+            isHiddenWrongAnswerValidation: false,
             activeColor: 'red',
             selectedAnswer: '',
             questions: [
@@ -99,9 +100,16 @@ export default {
             this.answerIndex++;
             this.isHidden = true;
             if(this.selectedAnswer == this.questions[this.index]['correctAnswer'])
+            {
                 this.correctAnswerCount++;
+                this.isHiddenCorrectAnswerValidation = true;
+            }
             else
+            {
                 this.wrongAnswerCount++;
+                this.isHiddenWrongAnswerValidation = true;
+
+            }
             console.log(this.correctAnswerCount+" "+this.wrongAnswerCount);
         },
         nextQuestion() {
@@ -109,6 +117,8 @@ export default {
             this.selectedAnswer = '';
             console.log(this.selectedAnswer)
             this.isHidden = false;
+            this.isHiddenCorrectAnswerValidation = false;
+            this.isHiddenWrongAnswerValidation = false;
         },
         uncheck: function() {
             this.selectedAnswer = ''
