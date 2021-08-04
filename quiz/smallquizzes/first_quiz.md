@@ -7,6 +7,4 @@ footer: Anamutta
 
 Welcome to the small quiz section!!
 
-### Fun Grammar
-
-[Quiz 1](./first_quiz.md)
+<Quiz />
