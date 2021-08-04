@@ -26,8 +26,8 @@
             </label>
             <div v-if="isHidden">
                 <!-- <button v-on:click="displayAnswer">Show correct answer</button> -->
-                <h5 v-if="isHiddenCorrectAnswerValidation"> Yaay!! Correct Answer &#128512 !!   </h5>
-                <h5 v-if="isHiddenWrongAnswerValidation"> Oh no 😢. Correct Answer is {{ questions[answerIndex-1]['correctAnswer']}}  </h5>
+                <h5 v-if="isHiddenCorrectAnswerValidation"> Pwolichuuu!! Correct answer &#128512 !!   </h5>
+                <h5 v-if="isHiddenWrongAnswerValidation"> Pani pali 😢. Correct answer is {{ questions[answerIndex-1]['correctAnswer']}}  </h5>
             </div>
             <div>
                 <button  
@@ -54,6 +54,16 @@
                     <h5>If you get all the answers right in the first attempt, take a screenshot and tag me @easymalayalam. 
                         P.S, if your account is private, inbox me the screenshot </h5>
             </div>
+            <div>
+                <button  
+                    @click="resetQuiz"
+                >
+                    Take Again
+                </button>
+                <p>
+                    <a href="/quiz/smallquizzes">Back to Quiz Home</a>
+                </p>
+            </div>
         </div>
     </div>
     </div>
@@ -61,75 +71,93 @@
 
 <script>
 export default {
-    data() {
-        return {
-            index: 0,
-            answerIndex: 0,
-            count: 3,
-            correctAnswerCount: 0,
-            wrongAnswerCount: 0,
-            isHidden: false,
-            isHiddenCorrectAnswerValidation: false,
-            isHiddenWrongAnswerValidation: false,
-            activeColor: 'red',
-            selectedAnswer: '',
-            questions: [
-                {
-                    question: "How do you say 'My Car' in Malayalam",
-                    answers: {a: 'Ente Car', b: 'Ninte/Ningalude Car', c: 'Onte Car', d: 'Aarudeyo Car'},
-                    correctAnswer: 'a'
-                },
-                {
-                    question: "How do you say 'your Car' in Malayalam",
-                    answers: {a: 'Onte Car', b: 'Aarudeyo Car', c: 'Ninte/Ningalude Car', d: 'Ente Car'},
-                    correctAnswer: 'c'
-                },
-                {
-                    question: "How do you say 'our car' in Malayalam",
-                    answers: {a: 'Achante Car', b: 'Ninte/Ningalude Car', c: 'Ente Car', d: 'Nammalude/Njangalude Car'},
-                    correctAnswer: 'd'
-                },
-            ]
-        }
+  data() {
+    return {
+      index: 0,
+      answerIndex: 0,
+      count: 3,
+      correctAnswerCount: 0,
+      wrongAnswerCount: 0,
+      isHidden: false,
+      isHiddenCorrectAnswerValidation: false,
+      isHiddenWrongAnswerValidation: false,
+      activeColor: "red",
+      selectedAnswer: "",
+      questions: [
+        {
+          question: "How do you say 'My Car' in Malayalam",
+          answers: {
+            a: "a) Ente Car",
+            b: "b) Ninte/Ningalude Car",
+            c: "c) Onte Car",
+            d: "d) Aarudeyo Car",
+          },
+          correctAnswer: "a",
+        },
+        {
+          question: "How do you say 'your Car' in Malayalam",
+          answers: {
+            a: "a) Onte Car",
+            b: "b) Aarudeyo Car",
+            c: "c) Ninte/Ningalude Car",
+            d: "d) Ente Car",
+          },
+          correctAnswer: "c",
+        },
+        {
+          question: "How do you say 'our car' in Malayalam",
+          answers: {
+            a: "a) Achante Car",
+            b: "b) Ninte/Ningalude Car",
+            c: "c) Ente Car",
+            d: "d) Nammalude/Njangalude Car",
+          },
+          correctAnswer: "d",
+        },
+      ],
+    };
+  },
+  methods: {
+    answered(e) {
+      this.selectedAnswer = e.target.value;
+      console.log(this.selectedAnswer);
+      // alert('Correct answer is' + this.questions[this.answerIndex]['correctAnswer'] );
+      this.answerIndex++;
+      this.isHidden = true;
+      if (this.selectedAnswer == this.questions[this.index]["correctAnswer"]) {
+        this.correctAnswerCount++;
+        this.isHiddenCorrectAnswerValidation = true;
+      } else {
+        this.wrongAnswerCount++;
+        this.isHiddenWrongAnswerValidation = true;
+      }
+      console.log(this.correctAnswerCount + " " + this.wrongAnswerCount);
     },
-    methods: {
-        answered(e) {
-            this.selectedAnswer = e.target.value
-            console.log(this.selectedAnswer)
-            // alert('Correct answer is' + this.questions[this.answerIndex]['correctAnswer'] );
-            this.answerIndex++;
-            this.isHidden = true;
-            if(this.selectedAnswer == this.questions[this.index]['correctAnswer'])
-            {
-                this.correctAnswerCount++;
-                this.isHiddenCorrectAnswerValidation = true;
-            }
-            else
-            {
-                this.wrongAnswerCount++;
-                this.isHiddenWrongAnswerValidation = true;
-
-            }
-            console.log(this.correctAnswerCount+" "+this.wrongAnswerCount);
-        },
-        nextQuestion() {
-            this.index++
-            this.selectedAnswer = '';
-            console.log(this.selectedAnswer)
-            this.isHidden = false;
-            this.isHiddenCorrectAnswerValidation = false;
-            this.isHiddenWrongAnswerValidation = false;
-        },
-        uncheck: function() {
-            this.selectedAnswer = ''
-        },
-        showResults() {
-            this.index++;
-        },
-        displayAnswer() {
-            // this.isHidden = true;
-        }
-    }
-    
-}
+    nextQuestion() {
+      this.index++;
+      this.selectedAnswer = "";
+      console.log(this.selectedAnswer);
+      this.isHidden = false;
+      this.isHiddenCorrectAnswerValidation = false;
+      this.isHiddenWrongAnswerValidation = false;
+    },
+    uncheck: function () {
+      this.selectedAnswer = "";
+    },
+    showResults() {
+      this.index++;
+    },
+    resetQuiz() {
+      this.index = 0;
+      this.answerIndex = 0;
+      this.correctAnswerCount = 0;
+      this.wrongAnswerCount = 0;
+      this.selectedAnswer = "";
+      this.isHidden = false;
+      this.isHiddenCorrectAnswerValidation = false;
+      this.isHiddenWrongAnswerValidation = false;
+      this.count = 3;
+    },
+  },
+};
 </script>
