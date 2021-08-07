@@ -18,5 +18,6 @@ As a part of visiting my website, I would like to gift you a wonderful Malayalam
 
 This book was found found from the website -> [The University of Texas at Austin, South Asia Institute](https://liberalarts.utexas.edu/southasia/index.php).Go to this website and search for the keyword 'Malayalam' and this book is listed there. Also there are some additional resources for the thirsty minds :sparkles:
 
-<ArticleIndex />
+<meta name="propeller" content="ea441b181c840ecaac672f8caeb6c6c9">
+
 <Footer />
