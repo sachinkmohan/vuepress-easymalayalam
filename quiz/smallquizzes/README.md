@@ -7,6 +7,6 @@ footer: Anamutta
 
 Welcome to the small quiz section!!
 
-### Fun Grammar
+### Easy Grammar
 
 [Quiz 1](./first_quiz.md)
