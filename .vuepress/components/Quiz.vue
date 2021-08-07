@@ -51,8 +51,7 @@
                     <p> Correct Answers: {{ correctAnswerCount}}<p>
                     <p> Wrong Answers: {{ wrongAnswerCount }}</p>
 
-                    <h5>If you get all the answers right in the first attempt, take a screenshot and tag me @easymalayalam. 
-                        P.S, if your account is private, inbox me the screenshot </h5>
+                    <h5>No matter your what you score, take a screenshot and tag me @easymalayalam on Insta</h5>
             </div>
             <div>
                 <button  
