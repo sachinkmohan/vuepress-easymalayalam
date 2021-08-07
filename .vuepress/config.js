@@ -16,24 +16,29 @@ module.exports = {
                 adClient: "ca-pub-8159459534545926", // replace it with your adClient
             },
         ],
+        [
+            "@vuepress/register-components",
+            {
+                componentsDir: "./path/to/components",
+            },
+        ],
     ],
     themeConfig: {
         nav: [
             { text: "Home", link: "/" },
             { text: "Blog", link: "/blog/" },
             {
-                text: 'Quizzes',
-                ariaLabel: 'Quiz Menu',
+                text: "Quizzes",
+                ariaLabel: "Quiz Menu",
                 items: [
-                    { text: 'Mega Quiz', link: '/Mega-Quiz/'},
-                    { text: 'Other Quizzes', link: '/quiz/smallquizzes/'}
-                ]
+                    { text: "Mega Quiz", link: "/Mega-Quiz/" },
+                    { text: "Other Quizzes", link: "/quiz/smallquizzes/" },
+                ],
             },
             { text: "Resources-Malayalam", link: "/Resources-Malayalam/" },
             { text: "Explained", link: "/explained/" },
             { text: "FAQs", link: "/FAQs/" },
-            { text: "Logs", link: "/logs/" }
+            { text: "Logs", link: "/logs/" },
         ],
-
     },
 };
