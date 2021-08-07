@@ -38,7 +38,7 @@ module.exports = {
             { text: "Resources-Malayalam", link: "/Resources-Malayalam/" },
             { text: "Explained", link: "/explained/" },
             { text: "FAQs", link: "/FAQs/" },
-            { text: "Logs", link: "/logs/" },
+            { text: "What's New", link: "/logs/" },
         ],
     },
 };

@@ -9,4 +9,4 @@ Welcome to the small quiz section!!
 
 ### Easy Grammar
 
-[Quiz 1](./first_quiz.md)
+:new: [Quiz 1](./first_quiz.md)
