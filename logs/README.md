@@ -1,6 +1,7 @@
 # What's New
 
-- :new: Introducing Quizzes - [Click here](../quiz/smallquizzes/)
+- :new: Added a new quiz under 'Children's Magazine'
+- Introducing Quizzes - [Click here](../quiz/smallquizzes/)
 - Added 'YouTube-ers' in the Resources -> 01.08.21
 - Added 'Explained' tab to post peoples doubt clarified from the closed Slack groups -> 01.08.21
 - Added 'Test' tab. Trying to implement a simple quiz. Not functional yet. -> 01.08.21
