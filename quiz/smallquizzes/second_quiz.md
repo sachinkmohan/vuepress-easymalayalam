@@ -7,10 +7,7 @@ footer: Anamutta
 
 Welcome to the small quiz section!!
 
-### Easy Grammar
 
-[Quiz 1](./first_quiz.md) <br>
+![Img](./../../imgs/luttappi_balarama.jpeg)
 
-### Fun Quiz from the children magazines
-
-:new: [Quiz 1](./second_quiz.md)
+<Balarama_Q1 />

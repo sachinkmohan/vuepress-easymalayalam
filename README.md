@@ -8,6 +8,8 @@ meta:
 footer: Anamutta
 ---
 
+<Tabs />
+
 # :palm_tree: Welcome to Easy Malayalam :palm_tree: - A fun place to learn Malayalam :smile:
 
 > My Slogan ->  
