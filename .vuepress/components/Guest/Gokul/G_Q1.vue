@@ -51,7 +51,7 @@
                     <p> Correct Answers: {{ correctAnswerCount}}<p>
                     <p> Wrong Answers: {{ wrongAnswerCount }}</p>
 
-                    <h5>No matter your what you score, take a screenshot and tag me @easymalayalam on Insta</h5>
+                    <h5>No matter your what you score, take a screenshot and tag me @easymalayalam or @everyday_malayalam on Insta</h5>
             </div>
             <div>
                 <button  
@@ -84,37 +84,32 @@ export default {
       selectedAnswer: "",
       questions: [
         {
-          question: "How do you say 'My Car' in Malayalam",
+          question: "Tea in Malayalam",
           answers: {
-            a: "a) Ente Car",
-            b: "b) Ninte/Ningalude Car",
-            c: "c) Onte Car",
-            d: "d) Aarudeyo Car",
+            a: "a) Kaapi",
+            b: "b) Chaaya",
+            c: "c) Paal",
           },
-          chithram: "@alias/vallamkali.jpg",
+          correctAnswer: "b",
+        },
+        {
+          question: "Smell",
+          answers: {
+            a: "a) Manam",
+            b: "b) Kelvi",
+            c: "c) Kaazcha",
+          },
           correctAnswer: "a",
         },
         {
-          question: "How do you say 'your Car' in Malayalam",
+          question: "Play",
           answers: {
-            a: "a) Onte Car",
-            b: "b) Aarudeyo Car",
-            c: "c) Ninte/Ningalude Car",
-            d: "d) Ente Car",
-          },
-          chithram: "@alias/il_leki.png",
-          correctAnswer: "c",
-        },
-        {
-          question: "How do you say 'our car' in Malayalam",
-          answers: {
-            a: "a) Achante Car",
-            b: "b) Ninte/Ningalude Car",
-            c: "c) Ente Car",
-            d: "d) Nammalude/Njangalude Car",
+            a: "a) Kalikkuka",
+            b: "b) Kulikkuka",
+            c: "c) Kazhikkuka",
           },
           chithram: "@alias/isthapetta_doubt.jpg",
-          correctAnswer: "d",
+          correctAnswer: "a",
         },
       ],
     };

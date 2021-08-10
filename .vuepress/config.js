@@ -1,4 +1,5 @@
 // config.js
+const path = require('path')
 
 module.exports = {
     title: "Easy മലയാളം",
@@ -40,5 +41,13 @@ module.exports = {
             { text: "FAQs", link: "/FAQs/" },
             { text: "What's New", link: "/logs/" },
         ],
+    },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@alias': path.resolve(__dirname, '../imgs')
+            }
+        }
+
     },
 };
