@@ -17,6 +17,6 @@ Welcome to the small quiz section!!
 
 ### Quiz by other Malayalam learning Channels
 
-[Random Quiz 1 - By Gokul - @everyday_malayalam](./guest/gokul/Q1.md)
+:new: [Random Quiz 1 - By Gokul - @everyday_malayalam](./guest/gokul/Q1.md)
 
 <PropellerAds2 />
