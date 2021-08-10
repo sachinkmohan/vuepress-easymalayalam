@@ -13,6 +13,10 @@ Welcome to the small quiz section!!
 
 ### Fun Quiz from the children magazines
 
-:new: [Quiz 1](./second_quiz.md)
+[Quiz 1](./second_quiz.md)
+
+### Quiz by other Malayalam learning Channels
+
+[Random Quiz 1 - By Gokul - @everyday_malayalam](./guest/gokul/Q1.md)
 
 <PropellerAds2 />
