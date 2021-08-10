@@ -14,3 +14,5 @@ Welcome to the small quiz section!!
 ### Fun Quiz from the children magazines
 
 :new: [Quiz 1](./second_quiz.md)
+
+<PropellerAds2 />
