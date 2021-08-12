@@ -4,7 +4,7 @@
         <div>
             <div v-if="index < count">
             
-            <!-- <img :src="require(`@alias/${questions[index]['chithram']}`)" alt="No image here too" /> <br> -> Incase you need to extract from the array--> 
+            <img :src="require(`@alias/quizzes/ads/adv_q1_${index}.jpg`)" alt="No image here too" height="600"/> <br>
             <p>{{ questions[index]['question']}}</p>
 
             <label 
@@ -86,37 +86,37 @@ export default {
       selectedAnswer: "",
       questions: [
         {
-          question: "How do you say 'My Car' in Malayalam",
+          question:
+            "What is the meaning of the word highlighted in the red box?",
           answers: {
-            a: "a) Ente Car",
-            b: "b) Ninte/Ningalude Car",
-            c: "c) Onte Car",
-            d: "d) Aarudeyo Car",
+            a: "a) Festival",
+            b: "b) Celebration",
+            c: "c) Smell",
+            d: "d) Fragrance",
           },
-          chithram: "vallamkali.jpg",
-          correctAnswer: "a",
-        },
-        {
-          question: "How do you say 'your Car' in Malayalam",
-          answers: {
-            a: "a) Onte Car",
-            b: "b) Aarudeyo Car",
-            c: "c) Ninte/Ningalude Car",
-            d: "d) Ente Car",
-          },
-          chithram: "il_leki.png",
-          correctAnswer: "c",
-        },
-        {
-          question: "How do you say 'our car' in Malayalam",
-          answers: {
-            a: "a) Achante Car",
-            b: "b) Ninte/Ningalude Car",
-            c: "c) Ente Car",
-            d: "d) Nammalude/Njangalude Car",
-          },
-          chithram: "isthapetta_doubt.jpg",
           correctAnswer: "d",
+        },
+        {
+          question:
+            "What is the meaning of the word highlighted in the red box?",
+          answers: {
+            a: "a) Beautiful",
+            b: "b) Gift",
+            c: "c) Bedsheet",
+            d: "d) Quality",
+          },
+          correctAnswer: "b",
+        },
+        {
+          question:
+            "What is the meaning of the word highlighted in the red box?",
+          answers: {
+            a: "a) Coconut",
+            b: "b) Coconut Milk",
+            c: "c) Oil",
+            d: "d) Juice",
+          },
+          correctAnswer: "b",
         },
       ],
     };
