@@ -1,6 +1,7 @@
 # What's New
 
-- :new: Quiz update - Added a new picture based quiz from magazines -> 12.08.21
+- :new: Mega Quiz 6 added -> 15.08.21
+- Quiz update - Added a new picture based quiz from magazines -> 12.08.21
 - Quiz update - Added a new quiz by Gokul from @everyday_malayalam under 'Quiz by other Malayalam learning Channels' -> 10.08.21
 - Quiz update - Added a new picture quiz under 'Children's Magazine'
 - Website major update - Introducing Quizzes - [Click here](../quiz/smallquizzes/)
