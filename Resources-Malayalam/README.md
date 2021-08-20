@@ -3,49 +3,46 @@ title: Malayalam language resources
 description: All the Malayalam language resources brought together at one place. Here you will get suggestions to good Malayalam podcasts, Instagram and general language resources.
 ---
 
-## All Malayalam Resources  
+## All Malayalam Resources
 
 ### Instagram
 
-
-+ **Elikutty** - @eli.kutty  
-+ **Malayala Madhuryam** - @malayala_madhuryam  
-+ **Easy Malayalam** - @easymalayalam  
-+ **Aparna Mulberry** - @invertedcoconut  
-+ **LightOz KidsMag** - @lightozkidsmag  
-+ **Fluent in Malayalam** - @fluentinmalayalam  
-+ **Everyday Malayalam** - @everyday_malayalam  
-+ **Bhasha Kids** - @bhashakids -> _Tips on how to learn Malayalam and other Indian languages for kids. She also has a wonderful [website](https://bhashakids.com/)You can also buy flashcards from the website
-+ **Polyglot Tale** - @polyglot_tale -> _Fun page by Pooja_
-
-_To be updated_ 
-
+| Name                    | Insta Handle           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ----------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Elikutty**            | @eli.kutty             | :new: Name -Eliza Keyton. <br><br>Learn Malayalam with EliKutty is about making Malayalam fun and accessible for all, as well connecting learners together with valuable insight from the Malayalee community. <br><br>On Instagram, Eliza posts fun video clips of lessons, skits, and interviews with people of interest. There are opportunities to engage in discussion and learn more about Malayalee culture, as well as share personal struggles and triumphs learning the language. <br><br> EliKutty doesn't offer any kinds of services, but works within the community to collaborate and promote other Malayalam content creators and their services. <br><br>Eliza really loves the word Thaimozhi, a Dravidian origin word for mother tongue. She hopes that more people can learn and appreciate Malayalam's roots and also appreciate their thaimozhi.                                                                                                                                                      |
+| **Bhasha Kids**         | @bhashakids            | :new: Name - Anita<br><br> Aims to empower South Asian families with tools and tips to raise multilingual and multicultural kids.<br><br> Your home for Malayalam- English bilingual learning materials! Help kids learn Malayalam through phonetic English. Current products include vocabulary cards and digital printables. <br><br> Hosts bilingual read alouds for kids on IG Live. Check out previous sessions - fun books including Eric Carle, the “Piggie and Gerald Series” by Mo Willems, and the “Mr. Panda” series by Steve Antony. <br><br> Products are also available in Hindi and Tamil, expanding to Marathi, Gujarati, Telugu and Kannada by 2022. <br><br> Favorite Malayalam word is a simple term of endearment - “Mole/ Mone”. It conveys something so much more than simply saying “My daughter/ my son” in English. [website](https://bhashakids.com/) <br><br>You can avail 10% discount through this special [EasyMalayalam link](https://bhashakids.com/discount/easymalayalam) on her website. |
+| **Eliza Gre**           | @languages_with_eleeza | :new: It is a page by Eliza who’s an experienced language teacher and a language learner, Malayalam is one of the languages she’s studying.<br><br>She posts some things she’s learnt in Malayalam (grammar, vocabulary and other) and also short quizzes for the learners of English, Russian and Polish (in her story) and other interesting things on languages. She is intending to start doing easy Malayalam quizzes too in the near future.<br><br>Her favourite Malayalam word is കുട്ടികുറുമ്പി /kuttikurumbi/, a naughty girl, it describes her little daughter very well.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Malayala Madhuryam**  | @malayala_madhuryam    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Easy Malayalam**      | @easymalayalam         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Aparna Mulberry**     | @invertedcoconut       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **LightOz KidsMag**     | @lightozkidsmag        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Fluent in Malayalam** | @fluentinmalayalam     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Everyday Malayalam**  | @everyday\*malayalam   | Fun page by Gokul with useful daily phrases                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Polyglot Tale**       | @polyglottale          | Fun page by Pooja                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ### YouTube-rs
 
-|Name |Link|
-|-----|-----|  
-|Easy Malayalam |[Link](https://www.youtube.com/channel/UCtMwtz4hRKr6WG_n8CisiDA)
-|Elikutty |[Link](https://www.youtube.com/channel/UC32ejuUaeWoE5F9sdRN1kVw)
-|Mallu Sayip |[Link](https://www.youtube.com/channel/UC6RYrCHI5JAUoZ9gGBwFoyA)
-
+| Name           | Link                                                             |
+| -------------- | ---------------------------------------------------------------- |
+| Easy Malayalam | [Link](https://www.youtube.com/channel/UCtMwtz4hRKr6WG_n8CisiDA) |
+| Elikutty       | [Link](https://www.youtube.com/channel/UC32ejuUaeWoE5F9sdRN1kVw) |
+| Mallu Sayip    | [Link](https://www.youtube.com/channel/UC6RYrCHI5JAUoZ9gGBwFoyA) |
 
 ### Podcasts
 
-|Name |Genre|
-|-----|-----|  
-|Tent Podcast|General
-|Ennodoppam Malayalam Podcast|General
-|Free Talks Malayalam Podcast|General
-|Kaecawdo|General
-|Purple - Malayalam Podcast|General
-
+| Name                         | Genre   |
+| ---------------------------- | ------- |
+| Tent Podcast                 | General |
+| Ennodoppam Malayalam Podcast | General |
+| Free Talks Malayalam Podcast | General |
+| Kaecawdo                     | General |
+| Purple - Malayalam Podcast   | General |
 
 ### Books
 
-
-_To be updated .._ 
+_To be updated .._
 
 ### General Language Learning
+
 - [Tackling language learning - A good blog](https://psyche.co/guides/how-to-approach-the-lifelong-project-of-language-learning)
 - [Open University course on 'How to learn a language'](https://www.open.edu/openlearn/languages/how-learn-language/content-section-overview?active-tab=description-tab)

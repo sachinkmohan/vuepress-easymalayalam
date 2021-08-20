@@ -1,6 +1,8 @@
 # What's New
 
-- :new: Mega Quiz 6 added -> 15.08.21
+- :new: Content update - Updated description of resources -> 21-08.21
+- :new: Quiz Update - Onam Quiz 2021 added -> 21.08.21
+- Mega Quiz 6 added -> 15.08.21
 - Quiz update - Added a new picture based quiz from magazines -> 12.08.21
 - Quiz update - Added a new quiz by Gokul from @everyday_malayalam under 'Quiz by other Malayalam learning Channels' -> 10.08.21
 - Quiz update - Added a new picture quiz under 'Children's Magazine'
