@@ -19,8 +19,12 @@ Welcome to the small quiz section!!
 
 [Random Quiz 1 - By Gokul - @everyday_malayalam](./guest/gokul/Q1.md)
 
-### :new: :rocket: Quiz - From Malayalam magazines :newspaper:
+### Quiz - From Malayalam magazines :newspaper:
 
-:new: [Advertisement Quiz](./magazines/Ads_Q1.md)
+[Advertisement Quiz](./magazines/Ads_Q1.md)
+
+### Quiz - Festivals :new:
+
+#### :new: :blossom: [Onam Quiz](../longquizzes/onam_21.md) :blossom:
 
 <PropellerAds2 />
