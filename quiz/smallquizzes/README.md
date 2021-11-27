@@ -26,5 +26,3 @@ Welcome to the small quiz section!!
 ### Quiz - Festivals :new:
 
 #### :new: :blossom: [Onam Quiz](../longquizzes/onam_21.md) :blossom:
-
-<PropellerAds2 />
