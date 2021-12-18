@@ -4,6 +4,6 @@ blog_index: true
 
 # Blog
 
-Welcome on Easy Malayalam blog
+Welcome to the Easy Malayalam blog
 
 <BlogIndex />
