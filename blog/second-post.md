@@ -1,12 +1,8 @@
 ---
 title: This one trick can help you speak more Malayalam!
 date: 2021-01-09
-description:
-        
-        Have you ever experienced stuck speaking Malayalam? For eg. You don't know what to say after starting the conversation with 'Hi!', 'How are you?'
+description: Have you ever experienced stuck speaking Malayalam? For eg. You don't know what to say after starting the conversation with 'Hi!', 'How are you?'
 ---
-
-
 
 # Are you stuck while speaking Malayalam?? Try this if you just started learning Malayalam/any other language!
 
@@ -45,3 +41,7 @@ _**NS**_: I was just chilling, I saw a new movie.
 So now you must have seen the difference between the first and the second conversation. You added something on top of the old conversation.
 
 Keep practicing the same conversation, make flashcards - Quizlet(quizlet.com) on the new words and phrases you just learned and practice them, so that they stay in your long term memory(LTM).
+
+#### Comments
+
+<Disqus />
