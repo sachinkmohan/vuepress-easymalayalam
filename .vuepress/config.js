@@ -43,7 +43,7 @@ module.exports = {
 				],
 			},
 			{ text: "Resources-Malayalam", link: "/Resources-Malayalam/" },
-			{ text: "Explained", link: "/explained/" },
+			{ text: "Tweets", link: "/twitter/" },
 			{ text: "FAQs", link: "/FAQs/" },
 			{ text: "What's New", link: "/whatsnew/" },
 		],
