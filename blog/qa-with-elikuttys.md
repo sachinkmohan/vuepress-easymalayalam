@@ -1,8 +1,7 @@
 ---
 title: Q & A with Elikutty - Story of an American who conquered Malayalam
-date: 2021-12-18 00:15:00
+date: 2021-12-19 00:15:00
 description: My first roadblock was losing access to Skype in the UAE. I was taking lessons twice a week and suddenly it was halted and I had no way to communicate with my tutor at the time.
-permalink: qa-with-elikutty
 ---
 
 Hello Malayalees! Here is a guest post by our dear Eliza Keyton who is known famously under the pen name Elikutty. I would like to thank her for taking time to write about her experiences. Hope her story inspires you to learn and improve your Malayalam. Enjoy reading! :smile:
