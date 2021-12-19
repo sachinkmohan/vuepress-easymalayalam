@@ -68,6 +68,8 @@ Malayalam has so many precise words for specific incidents. The word “to break
 
 As for Malayalees- their sarcasm is a whole other art form. I hope I can get to the point where I can keep up with and come back with some sarcastic rants of my own.
 
+P.S, please feel free to like or give a feedback or ask questions.
+
 #### Comments
 
 <Disqus />
