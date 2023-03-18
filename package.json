@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:build": "vuepress build"
+    "docs:build": "vuepress build",
+    "docs:dev": "vuepress dev"
   },
   "repository": {
     "type": "git",
@@ -22,13 +23,13 @@
   "homepage": "https://github.com/sachinkmohan/vuepress-easymalayalam#readme",
   "dependencies": {
     "vue": "^2.6.14",
-    "vue-server-renderer": "^2.6.14",
-    "vuepress": "1.8.0"
+    "vue-server-renderer": "^2.6.14"
   },
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.3",
     "@vuepress/plugin-google-analytics": "^1.8.0",
     "@vuepress/plugin-register-components": "^1.8.2",
+    "vuepress": "^1.8.0",
     "vuepress-plugin-disqus": "^0.2.0",
     "vuepress-plugin-google-adsense": "^0.2.1"
   }
