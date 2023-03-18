@@ -1,8 +1,14 @@
 # What's New
 
+### 2023
+
+- :new: blog post on ChatGPT
+- :new: updates on my Buymeacoffee [page](https://www.buymeacoffee.com/easymalayalam)
+- :new: Services offered page created
+
 ### 2021
 
-- **Dec** -> :new: New blog post by Elikutty and added _Tweets_ for twitter feed, added more resources to YouTube, Instagram, Music, books
+- **Dec** -> New blog post by Elikutty and added _Tweets_ for twitter feed, added more resources to YouTube, Instagram, Music, books
 - Content update - Updated description of resources -> 21-08.21
 - Quiz Update - Onam Quiz 2021 added -> 21.08.21
 - Mega Quiz 6 added -> 15.08.21
