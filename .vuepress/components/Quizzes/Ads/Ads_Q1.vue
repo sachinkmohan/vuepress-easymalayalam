@@ -5,6 +5,9 @@
             <div v-if="index < count">
             
             <img :src="require(`@alias/quizzes/ads/adv_q1_${index}.jpg`)" alt="No image here too" height="600"/> <br>
+            
+            <h2> Question {{ index + 1}} of {{questions.length }} </h2>
+
             <p>{{ questions[index]['question']}}</p>
 
             <label 
@@ -62,7 +65,7 @@
                     Take Again
                 </button>
                 <p>
-                    <a href="/quiz/smallquizzes">Back to Quiz Home</a>
+                    <a href="/quiz">Back to Quiz Home</a>
                 </p>
             </div>
         </div>

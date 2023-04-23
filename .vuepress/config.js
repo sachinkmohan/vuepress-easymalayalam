@@ -40,7 +40,7 @@ module.exports = {
         ariaLabel: "Quiz Menu",
         items: [
           { text: "Mega Quiz", link: "/Mega-Quiz/" },
-          { text: "Other Quizzes", link: "/quiz/smallquizzes/" },
+          { text: "Other Quizzes", link: "/quiz/" },
         ],
       },
       { text: "Resources-Malayalam", link: "/Resources-Malayalam/" },

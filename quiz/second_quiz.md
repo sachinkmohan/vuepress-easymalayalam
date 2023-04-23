@@ -5,9 +5,8 @@ description: Malayalam Quizzes for fun. Play these Malayalam quizzes when you ne
 footer: Anamutta
 ---
 
-Welcome to the small quiz section!!
+Welcome to the small quiz section!! test
 
-
-![Img](./../../imgs/luttappi_balarama.jpeg)
+![Img](../imgs/luttappi_balarama.jpeg)
 
 <Balarama_Q1 />

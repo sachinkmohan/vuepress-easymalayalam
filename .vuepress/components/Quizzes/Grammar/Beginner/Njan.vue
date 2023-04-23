@@ -1,10 +1,10 @@
 <template>
     <div>
-        <h4> Simple Quiz - 3 Questions </h4>
+        <h4> Long Quiz - 10 Questions - Test your knowledge on the Onam festival </h4>
         <div>
             <div v-if="index < count">
             
-            <!-- <img :src="require(`@alias/${questions[index]['chithram']}`)" alt="No image here too" /> <br> -> Incase you need to extract from the array--> 
+            <img :src="require(`@alias/quizzes/festivals/onam2021/onam_${index}.jpg`)" alt="No image here too" height="200" width="300"/> <br>
             
             <h2> Question {{ index + 1}} of {{questions.length }} </h2>
 
@@ -53,6 +53,7 @@
             <h2>Results</h2>
             <div>
                     <h4>You are one awesome Malayalee for completing the quiz!! </h4>
+                    <h4 style="color:blue;">Wish you a happy Onam 2021!!</h4>
                     <p> Correct Answers: {{ correctAnswerCount}}<p>
                     <p> Wrong Answers: {{ wrongAnswerCount }}</p>
 
@@ -79,7 +80,7 @@ export default {
     return {
       index: 0,
       answerIndex: 0,
-      count: 3,
+      count: 10,
       correctAnswerCount: 0,
       wrongAnswerCount: 0,
       isHidden: false,
@@ -89,37 +90,114 @@ export default {
       selectedAnswer: "",
       questions: [
         {
-          question: "How do you say 'My Car' in Malayalam",
+          question: "Who celebrates Onam?",
           answers: {
-            a: "a) Ente Car",
-            b: "b) Ninte/Ningalude Car",
-            c: "c) Onte Car",
-            d: "d) Aarudeyo Car",
+            a: "a) Kannadigas",
+            b: "b) Maratis",
+            c: "c) Malayalis",
+            d: "d) Tamilians",
           },
-          chithram: "vallamkali.jpg",
-          correctAnswer: "a",
-        },
-        {
-          question: "How do you say 'your Car' in Malayalam",
-          answers: {
-            a: "a) Onte Car",
-            b: "b) Aarudeyo Car",
-            c: "c) Ninte/Ningalude Car",
-            d: "d) Ente Car",
-          },
-          chithram: "il_leki.png",
           correctAnswer: "c",
         },
         {
-          question: "How do you say 'our car' in Malayalam",
+          question: "Which King's return is celebrated on Onam?",
           answers: {
-            a: "a) Achante Car",
-            b: "b) Ninte/Ningalude Car",
-            c: "c) Ente Car",
-            d: "d) Nammalude/Njangalude Car",
+            a: "a) Bahubali",
+            b: "b) Mahabali",
+            c: "c) Bruce Lee",
+            d: "d) Shivaji",
           },
-          chithram: "isthapetta_doubt.jpg",
+          correctAnswer: "b",
+        },
+        {
+          question: "Which God sends Mahabali to Pathalam(Hell/Underworld)?",
+          answers: {
+            a: "a) Lord Shiva",
+            b: "b) Lord Brahma",
+            c: "c) Lord Ganesh",
+            d: "d) Lord Vishnu",
+          },
           correctAnswer: "d",
+        },
+        {
+          question:
+            "Why was Mahabali sent to Pathalam though he was a good ruler?",
+          answers: {
+            a: "a) He was cruel minded",
+            b: "b) He was mean",
+            c: "c) He had defeated gods(Devas) and captured over the 3 worlds",
+            d: "d) He wanted to go to Pathalam",
+          },
+          correctAnswer: "c",
+        },
+        {
+          question:
+            "Which avatar does Lord Vishnu takes himself to visit Mahabali?",
+          answers: {
+            a: "a) Vamana",
+            b: "b) Hanuman",
+            c: "c) Parashurama",
+            d: "d) Kamsa",
+          },
+          correctAnswer: "a",
+        },
+        {
+          question:
+            "What is the traditional dress Men and Women wear on the occasion of Onam?",
+          answers: {
+            a:
+              "a) Sherwani and Kasavu(A garment made of gold thread and other cloth) Sari",
+            b:
+              "b) Kurta and Kasavu(A garment made of gold thread and other cloth) Sari",
+            c:
+              "c) Pajama and Kasavu(A garment made of gold thread and other cloth) Sari",
+            d:
+              "d) Mundu and Kasavu(A garment made of gold thread and other cloth) Sari",
+          },
+          correctAnswer: "d",
+        },
+        {
+          question:
+            "Though onam lasts for a duration of 10 days, which day is primarily celebrated?",
+          answers: {
+            a: "a) Onnam Onam",
+            b: "b) Randam Onam",
+            c: "c) Thiruvonam",
+            d: "d) Attham",
+          },
+          correctAnswer: "c",
+        },
+        {
+          question:
+            "People buy and wear new clothes on the occasion of Onam, what is it called?",
+          answers: {
+            a: "a) Dhanushkodi",
+            b: "b) Onakkodi",
+            c: "c) Vadakkodi",
+            d: "d) Thekkodi",
+          },
+          correctAnswer: "b",
+        },
+        {
+          question:
+            "What is the name of the dance form, where women perform in circles around a lamp?",
+          answers: {
+            a: "a) Kaikkotti Kali",
+            b: "b) Ottam thullal",
+            c: "c) Thiruvathira Kali",
+            d: "d) Puli Kali",
+          },
+          correctAnswer: "c",
+        },
+        {
+          question: "What feast does Malayalees make on this day?",
+          answers: {
+            a: "a) Onam Sadya",
+            b: "b) Onam Milk",
+            c: "c) Onam Shake",
+            d: "d) Onam Lassi",
+          },
+          correctAnswer: "a",
         },
       ],
     };

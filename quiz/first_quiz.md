@@ -7,4 +7,5 @@ footer: Anamutta
 
 Welcome to the small quiz section!!
 
+test
 <Quiz />
