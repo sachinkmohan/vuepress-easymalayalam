@@ -3,7 +3,9 @@
         <h4> Simple Quiz - 3 Questions </h4>
         <div>
             <div v-if="index < count">
-            
+
+            <h2> Question {{ index + 1}} of {{questions.length }} </h2>
+ 
             <p>{{ questions[index]['question']}}</p>
             <label 
                 :for="key" 
@@ -60,7 +62,7 @@
                     Take Again
                 </button>
                 <p>
-                    <a href="/quiz/smallquizzes">Back to Quiz Home</a>
+                    <a href="/quiz">Back to Quiz Home</a>
                 </p>
             </div>
         </div>
