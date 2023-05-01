@@ -1,15 +1,15 @@
 <template>
     <div>
-        <h4> Long Quiz - 10 Questions - Test your knowledge on the Onam festival </h4>
+        <h4> Long Quiz - 11 Questions</h4>
         <div>
             <div v-if="index < count">
+            <br>
+            <h2 class="has-text-info"> Question {{ index + 1}} of {{questions.length }} </h2>
             
-            <img :src="require(`@alias/quizzes/festivals/onam2021/onam_${index}.jpg`)" alt="No image here too" height="200" width="300"/> <br>
-            
-            <h2> Question {{ index + 1}} of {{questions.length }} </h2>
-
+            <br>
             <p>{{ questions[index]['question']}}</p>
-
+            
+            <br>
             <label 
                 :for="key" 
                 v-for="answer,key in questions[index]['answers']"
@@ -29,11 +29,17 @@
                     {{ answer}} <br>
 
             </label>
-            <div v-if="isHidden">
+           
+            <br>
+           
+            <div class="has-text-primary" v-if="isHidden">
                 <!-- <button v-on:click="displayAnswer">Show correct answer</button> -->
                 <h5 v-if="isHiddenCorrectAnswerValidation"> Pwolichuuu!! Correct answer &#128512 !!   </h5>
                 <h5 v-if="isHiddenWrongAnswerValidation"> Pani pali 😢. Correct answer is {{ questions[answerIndex-1]['correctAnswer']}}  </h5>
             </div>
+           
+            <br>
+           
             <div>
                 <button  
                     v-show="selectedAnswer !='' && index < count-1"
@@ -50,21 +56,36 @@
             </div>
         </div>
         <div v-else>
-            <h2>Results</h2>
+                    <br>
+            <h2 class="has-text-link">Results</h2>
             <div>
-                    <h4>You are one awesome Malayalee for completing the quiz!! </h4>
-                    <h4 style="color:blue;">Wish you a happy Onam 2021!!</h4>
-                    <p> Correct Answers: {{ correctAnswerCount}}<p>
-                    <p> Wrong Answers: {{ wrongAnswerCount }}</p>
+                    <br>
+                    <h4 class="is-italic is-size-5">You are one awesome Malayalee for completing the quiz!! 👏 </h4>
+                    <h4 style="color:blue;">Hope you are not confused anymore 😉 </h4>
+                    
+                    <br>
+                    
+                    <p class="has-text-success"> Correct Answers: {{ correctAnswerCount}}<p>
+                    <p class="has-text-danger"> Wrong Answers: {{ wrongAnswerCount }}</p>
 
+                    <br>
+                    
                     <h5>No matter your what you score, take a screenshot and tag me @easymalayalam on Insta</h5>
+
+                    <br>
+
             </div>
             <div>
                 <button  
                     @click="resetQuiz"
                 >
+
                     Take Again
                 </button>
+
+                    <br>
+                    <br>
+
                 <p>
                     <a href="/quiz">Back to Quiz Home</a>
                 </p>
@@ -80,7 +101,7 @@ export default {
     return {
       index: 0,
       answerIndex: 0,
-      count: 10,
+      count: 11,
       correctAnswerCount: 0,
       wrongAnswerCount: 0,
       isHidden: false,
@@ -90,112 +111,117 @@ export default {
       selectedAnswer: "",
       questions: [
         {
-          question: "Who celebrates Onam?",
+          question: "_____ Vishakunnu? - I am hungry ",
           answers: {
-            a: "a) Kannadigas",
-            b: "b) Maratis",
-            c: "c) Malayalis",
-            d: "d) Tamilians",
+            a: "a) Ente",
+b: "b) Njan",
+c: "c) Enikku",
           },
           correctAnswer: "c",
         },
         {
-          question: "Which King's return is celebrated on Onam?",
+          question: "___ Achchan. - My father",
           answers: {
-            a: "a) Bahubali",
-            b: "b) Mahabali",
-            c: "c) Bruce Lee",
-            d: "d) Shivaji",
+            a: "a) Ente",
+b: "b) Njan",
+c: "c) Enikku",
+
           },
-          correctAnswer: "b",
+          correctAnswer: "a",
         },
         {
-          question: "Which God sends Mahabali to Pathalam(Hell/Underworld)?",
+          question: "____ chiri varunilla. - I don't find it funny",
           answers: {
-            a: "a) Lord Shiva",
-            b: "b) Lord Brahma",
-            c: "c) Lord Ganesh",
-            d: "d) Lord Vishnu",
-          },
-          correctAnswer: "d",
-        },
-        {
-          question:
-            "Why was Mahabali sent to Pathalam though he was a good ruler?",
-          answers: {
-            a: "a) He was cruel minded",
-            b: "b) He was mean",
-            c: "c) He had defeated gods(Devas) and captured over the 3 worlds",
-            d: "d) He wanted to go to Pathalam",
+            a: "a) Njan",
+b: "b) Ente",
+c: "c) Enikku",
+
           },
           correctAnswer: "c",
         },
         {
           question:
-            "Which avatar does Lord Vishnu takes himself to visit Mahabali?",
+            "Aaranu ____? - Who am I?",
           answers: {
-            a: "a) Vamana",
-            b: "b) Hanuman",
-            c: "c) Parashurama",
-            d: "d) Kamsa",
+            a: "a) Njan",
+b: "b) Ente",
+c: "c) Enikku",
+
           },
           correctAnswer: "a",
         },
         {
           question:
-            "What is the traditional dress Men and Women wear on the occasion of Onam?",
+            "____ car aanu ithu - This is my car",
           answers: {
-            a:
-              "a) Sherwani and Kasavu(A garment made of gold thread and other cloth) Sari",
-            b:
-              "b) Kurta and Kasavu(A garment made of gold thread and other cloth) Sari",
-            c:
-              "c) Pajama and Kasavu(A garment made of gold thread and other cloth) Sari",
-            d:
-              "d) Mundu and Kasavu(A garment made of gold thread and other cloth) Sari",
-          },
-          correctAnswer: "d",
-        },
-        {
-          question:
-            "Though onam lasts for a duration of 10 days, which day is primarily celebrated?",
-          answers: {
-            a: "a) Onnam Onam",
-            b: "b) Randam Onam",
-            c: "c) Thiruvonam",
-            d: "d) Attham",
-          },
-          correctAnswer: "c",
-        },
-        {
-          question:
-            "People buy and wear new clothes on the occasion of Onam, what is it called?",
-          answers: {
-            a: "a) Dhanushkodi",
-            b: "b) Onakkodi",
-            c: "c) Vadakkodi",
-            d: "d) Thekkodi",
+            a: "a) Enikku",
+b: "b) Ente",
+c: "c) Njan",
+
           },
           correctAnswer: "b",
         },
         {
           question:
-            "What is the name of the dance form, where women perform in circles around a lamp?",
+            "____ doctor aanu. - I am a doctor",
           answers: {
-            a: "a) Kaikkotti Kali",
-            b: "b) Ottam thullal",
-            c: "c) Thiruvathira Kali",
-            d: "d) Puli Kali",
+            a: "a) Njan",
+b: "b) Enikku",
+c: "c) Ente",
+
+          },
+          correctAnswer: "a",
+        },
+        {
+          question:
+            "____ etavum valiya swapnam. - My biggest dream",
+          answers: {
+            a: "a) Ente",
+b: "b) Enikku",
+c: "c) Njan",
+
+          },
+          correctAnswer: "a",
+        },
+        {
+          question:
+            "____ 30 vayasayi. - I am 30 years old.",
+          answers: {
+            a: "a) Njan",
+b: "b) Enikku",
+c: "c) Ente",
+
+          },
+          correctAnswer: "b",
+        },
+        {
+          question:
+            "____ innale jolikku poyi. - I went work yesterday",
+          answers: {
+            a: "a) Njan",
+b: "b) Ente",
+c: "c) Enikku",
+
+
+          },
+          correctAnswer: "a",
+        },
+        {
+          question: "Kashu venam ____. - I want money",
+          answers: {
+            a: "a) Njan",
+b: "b) Ente",
+c: "c) Enikku",
           },
           correctAnswer: "c",
         },
         {
-          question: "What feast does Malayalees make on this day?",
+          question: "____ John. - I am John",
           answers: {
-            a: "a) Onam Sadya",
-            b: "b) Onam Milk",
-            c: "c) Onam Shake",
-            d: "d) Onam Lassi",
+            a: "a) Njan",
+b: "b) Enikku",
+c: "c) Ente",
+
           },
           correctAnswer: "a",
         },
@@ -242,7 +268,7 @@ export default {
       this.isHidden = false;
       this.isHiddenCorrectAnswerValidation = false;
       this.isHiddenWrongAnswerValidation = false;
-      this.count = 3;
+      this.count;
     },
   },
 };

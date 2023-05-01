@@ -23,4 +23,8 @@ As a part of visiting my website, I would like to gift you a wonderful Malayalam
 
 This book was found found from the website -> [The University of Texas at Austin, South Asia Institute](https://liberalarts.utexas.edu/southasia/index.php).Go to this website and search for the keyword 'Malayalam' and this book is listed there. Also there are some additional resources for the thirsty minds :sparkles:
 
+<br>
+<a href="https://www.buymeacoffee.com/easymalayalam"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee or kappi&emoji=&slug=easymalayalam&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
+<br>
 <Footer />

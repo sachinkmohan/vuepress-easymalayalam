@@ -4,6 +4,23 @@ const path = require("path");
 module.exports = {
   title: "Easy മലയാളം",
   description: "Easy Malayalam Website",
+  head: [
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css",
+      },
+    ],
+  ],
   plugins: [
     [
       "@vuepress/google-analytics",
@@ -35,18 +52,13 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Blog", link: "/blog/" },
       { text: "Services", link: "/services/" },
-      {
-        text: "Quizzes",
-        ariaLabel: "Quiz Menu",
-        items: [
-          { text: "Mega Quiz", link: "/Mega-Quiz/" },
-          { text: "Other Quizzes", link: "/quiz/" },
-        ],
-      },
+      { text: "Quizzes", link: "/quiz/" },
       { text: "Resources-Malayalam", link: "/Resources-Malayalam/" },
       { text: "Tweets", link: "/twitter/" },
       { text: "FAQs", link: "/FAQs/" },
       { text: "What's New", link: "/whatsnew/" },
+      { text: "Credits", link: "/credits/" },
+      { text: "Archive", link: "/archive/" },
     ],
   },
   configureWebpack: {

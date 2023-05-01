@@ -241,7 +241,7 @@ export default {
       this.isHidden = false;
       this.isHiddenCorrectAnswerValidation = false;
       this.isHiddenWrongAnswerValidation = false;
-      this.count = 3;
+      this.count;
     },
   },
 };

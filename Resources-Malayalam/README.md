@@ -5,7 +5,9 @@ description: All the Malayalam language resources brought together at one place.
 
 ## All Malayalam Resources
 
-### Instagram-ers [Link](instagrammers.md)
+### [Grammar Resources](grammar.md)
+
+### [Instagram-ers](instagrammers.md)
 
 ### YouTube-rs
 
