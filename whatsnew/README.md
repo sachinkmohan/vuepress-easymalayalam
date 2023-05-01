@@ -2,9 +2,19 @@
 
 ### 2023
 
-- :new: blog post on ChatGPT
-- :new: updates on my Buymeacoffee [page](https://www.buymeacoffee.com/easymalayalam)
-- :new: Services offered page created
+### :new: <i class="fas fa-fire fa-beat-fade" style=" color:red; --fa-beat-fade-scale: 2.00;"></i>
+
+- Modified **quiz** section. Added **Njan, Ente, Enikku** quiz. [Click here](../quiz/grammar/njan.md)
+- Added **Credits** section for all the resources used in Easy Malayalam Website. [Click here](../credits/README.md)
+- Added **Grammar** section to the **Resources** page. [Click here](../Resources-Malayalam/README.md)
+- Added **Archive** page to find old resources easily. [Click here](../archive/README.md)
+- Added **Buy me a coffee** button on the website. [Click here](https://www.buymeacoffee.com/easymalayalam)
+
+---
+
+- blog post on ChatGPT
+- updates on my Buymeacoffee [page](https://www.buymeacoffee.com/easymalayalam)
+- Services offered page created
 
 ### 2021
 

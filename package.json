@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sachinkmohan/vuepress-easymalayalam#readme",
   "dependencies": {
+    "bulma": "^0.9.4",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14"
   },
